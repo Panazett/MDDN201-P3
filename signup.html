@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flatter Signup</title>
+	<link rel="stylesheet" type="text/css" href="css/style-signup.css">
+	<link rel="icon" href="images/logo-colour.png">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="css/hover.css">
+</head>
+
+
+<body>
+	<div id="cover" class="animated fadeInDown">
+		<a href="index.html"><img src="images/logo-text-colour.png" height="150px" class="hvr-grow"></a>
+	</div>
+
+	<div id="main" class="animated fadeInUp">
+		<form action="php/signup.php" method="post">
+			<input class="input" type="text" name="first" placeholder="First Name..." spellcheck="false" required><br>
+			<input class="input" type="text" name="last" placeholder="Last Name..." spellcheck="false" required><br>
+ 			<input class="input" type="email" name="email" placeholder="Email..." spellcheck="false" required><br>
+			<input class="input" type="password" name="password" placeholder="Password..." spellcheck="false" required><br>
+
+			<input type="submit" class="submit_button animated fadeInUp" value="Sign up" />
+		</form>
+	</div>
+</body>
+</html>

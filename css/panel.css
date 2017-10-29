@@ -1,0 +1,173 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #3eb99b;
+	padding-bottom: 60px;
+}
+
+p {
+	color: #3eb99b;
+}
+
+/* Top Bar with Logo */
+
+#cover {
+	background-color: #3eb99b;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#cover img {
+	padding: 40px 0 40px 0;
+}
+
+/* Widgets */
+
+#widgets {
+	color: #232323;
+}
+
+.widget {
+	max-width: 1300px;
+	margin-top: 50px;
+	margin: 60px auto 10px auto;
+}
+
+#widgets h2 {
+	margin-top: 15px;
+}
+
+/* Lists */
+
+#names {
+	list-style: none;
+}
+
+#names li {
+	background-color: #3eb99b;
+	border-radius: 100px;
+	display: inline-block;
+	padding: 20px 20px 20px 20px;
+	margin: 5px;
+}
+
+.addition {
+	width: 20px;
+}
+
+
+
+
+
+
+
+.input {
+
+	border-top: 0px;
+	border-bottom: 2px;
+	border-left: 0px;
+	border-right: 0px;
+	border-style: solid;
+	border-color: #bad8d1;
+
+
+	text-align: center;
+	font-size: 15px;
+	color: rgba(64, 211, 175, 1);
+	padding-top: 0px;
+	padding-bottom: 6px;
+	margin: auto;
+	transition: all 0.3s ease;
+	margin-top: 5px;
+}
+
+.input:focus {
+	outline-style: none;
+	border-color: #3eb99b;
+}
+
+::-webkit-input-placeholder { /* ONLY WORKS WITH CHROME */
+	transition: all 0.3s ease;
+  	color: rgba(59, 186, 155, 1);
+  	font-family: 'Montserrat', sans-serif;
+}
+
+.input:focus::-webkit-input-placeholder { /* ONLY WORKS WITH CHROME */
+  	color: rgba(59, 186, 155, 0);
+  	font-family: 'Montserrat', sans-serif;
+}
+
+.submit_button {
+	text-decoration: none;
+	outline-style: none;
+	background-color: white;
+	border: solid;
+	color: #3eb99b;
+	padding: 8px 17px 8px 17px;
+	margin: auto;
+	margin-top: 15px;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	transition: all 0.4s ease;
+}
+
+.submit_button:hover {
+	padding: 8px 25px 8px 25px;
+	cursor: pointer;
+}
+
+.submit_button2 {
+	text-decoration: none;
+	outline-style: none;
+	background-color: #3eb99b;
+	border: solid;
+	border-color: white;
+	color: white;
+	padding: 8px 17px 8px 17px;
+	margin: 30px auto 30px auto;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	transition: all 0.4s ease;
+}
+
+.submit_button2:hover {
+	padding: 8px 25px 8px 25px;
+}
+
+.submit_butto {
+	color: white;
+	margin: 30px auto 30px auto;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+#SLpopupAdd, #SLpopupRem, #EpopupAdd, #EpopupRem {
+	display: none;
+}
+
+.click {
+	background-color: white;
+	border: solid;
+	color: #3eb99b;
+	padding: 8px 17px 8px 17px;
+	border-radius: 100px;
+	display: inline-block;
+	margin: 5px;
+	transition: all 0.4s ease;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+
+}
+
+.click:hover {
+	padding: 8px 25px 8px 25px;
+	cursor: pointer;
+}

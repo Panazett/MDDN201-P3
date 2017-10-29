@@ -1,0 +1,33 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline-style: none;
+}
+
+body {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #3eb99b;
+}
+
+a {
+	text-decoration: none;
+}
+
+#cover {
+	background-color: white;
+	color: #3eb99b;
+	height: 220px;
+}
+
+#cover img {
+	padding-top: 30px;
+}
+
+#main {
+	padding-top: 20px;
+	color: #3eb99b;
+	height: 400px;
+}
+
+
